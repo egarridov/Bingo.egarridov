@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/estilo.css">
+</head>
+
+<body>
+
+
+    <div class="container ">
+
+        <header class="row justify-content-center align-items-center cabecera">
+            <img src="./imagenes/bingo.png" class="img-fluid img" jus alt="">
+        </header>
+
+        <div class="row">
+            <div class="col-12 p-0">
+                <nav class="navbar navbar-expand-md menu">
+
+
+                    <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link colormenu" href="./cartones.html">Mi Bingo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colormenu" href="./top10.html">Ranking</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colormenu" href="#">Editar mi perfil</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+        <form class="needs-validation" novalidate>
+            <div class="form-row pt-5">
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltip01">Nombre</label>
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Nombre" value="Elena"
+                        required>
+                    <div class="valid-tooltip">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltip02">Apellidos</label>
+                    <input type="text" class="form-control" id="validationTooltip02" placeholder="Apellidos"
+                        value="Garrido" required>
+                    <div class="valid-tooltip">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltipUsername">Usuario</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="validationTooltipUsername" placeholder="egarridov"
+                            aria-describedby="validationTooltipUsernamePrepend" required>
+                        <div class="invalid-tooltip">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-2">
+                Selecciona la fecha de cumpleaños:
+                <input type="date" name="fecha" step="2">
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3 pt-4">
+
+                    <label for="exampleFormControlSelect1">Provincia</label>
+                    <select id="busqueda_provincia">
+                        <option value='Sevilla'>Sevilla</option>
+                        <option value='albacete'>Albacete</option>
+                        <option value='alicante'>Alicante/Alacant</option>
+                        <option value='almeria'>Almería</option>
+                        <option value='asturias'>Asturias</option>
+                        <option value='avila'>Ávila</option>
+                        <option value='badajoz'>Badajoz</option>
+                        <option value='barcelona'>Barcelona</option>
+                        <option value='burgos'>Burgos</option>
+                        <option value='caceres'>Cáceres</option>
+                        <option value='cadiz'>Cádiz</option>
+                        <option value='cantabria'>Cantabria</option>
+                        <option value='castellon'>Castellón/Castelló</option>
+                        <option value='ceuta'>Ceuta</option>
+                        <option value='ciudadreal'>Ciudad Real</option>
+                        <option value='cordoba'>Córdoba</option>
+                        <option value='cuenca'>Cuenca</option>
+                        <option value='girona'>Girona</option>
+                        <option value='laspalmas'>Las Palmas</option>
+                        <option value='granada'>Granada</option>
+                        <option value='guadalajara'>Guadalajara</option>
+                        <option value='guipuzcoa'>Guipúzcoa</option>
+                        <option value='huelva'>Huelva</option>
+                        <option value='huesca'>Huesca</option>
+                        <option value='illesbalears'>Illes Balears</option>
+                        <option value='jaen'>Jaén</option>
+                        <option value='acoruña'>A Coruña</option>
+                        <option value='larioja'>La Rioja</option>
+                        <option value='leon'>León</option>
+                        <option value='lleida'>Lleida</option>
+                        <option value='lugo'>Lugo</option>
+                        <option value='madrid'>Madrid</option>
+                        <option value='malaga'>Málaga</option>
+                        <option value='melilla'>Melilla</option>
+                        <option value='murcia'>Murcia</option>
+                        <option value='navarra'>Navarra</option>
+                        <option value='ourense'>Ourense</option>
+                        <option value='palencia'>Palencia</option>
+                        <option value='pontevedra'>Pontevedra</option>
+                        <option value='salamanca'>Salamanca</option>
+                        <option value='segovia'>Segovia</option>
+                        <option value='alava'>Álava</option>
+                        <option value='soria'>Soria</option>
+                        <option value='tarragona'>Tarragona</option>
+                        <option value='santacruztenerife'>Santa Cruz de Tenerife</option>
+                        <option value='teruel'>Teruel</option>
+                        <option value='toledo'>Toledo</option>
+                        <option value='valencia'>Valencia/Valéncia</option>
+                        <option value='valladolid'>Valladolid</option>
+                        <option value='vizcaya'>Vizcaya</option>
+                        <option value='zamora'>Zamora</option>
+                        <option value='zaragoza'>Zaragoza</option>
+                    </select>
+
+                    <div class="form-group pt-3">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="alum.egarridov@iesalixar.org">
+                    </div>
+
+
+                    <div class="Sobre mi pt-3">
+                        <label for="exampleFormControlTextarea1">Sobre mi</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group pt-4">
+                        <label for="exampleFormControlFile1">Foto de perfil</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <button class="btn btn-primary  mb-3" type="submit">Confirmar</button>
+
+        </form>
+
+
+        <footer class="row justify-content-center align-items-center no-gutter border3 rounded gris">
+
+            <div>
+
+                <button type="button" class="btn color">Linkedin</button>
+                <button type="button" class="btn color">Facebook</button>
+                <button type="button" class="btn color">Twitter</button>
+                <button type="button" class="btn color">Instagram</button>
+
+            </div>
+
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
